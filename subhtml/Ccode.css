@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+}
+.Up {
+  color: rgba(85, 230, 218, 0.854);
+  text-align: center;
+  font-family: cursive;
+}
+.cap {
+  color: black;
+  font-family: cursive;
+}
+
+.show {
+  padding: 14px 28px;
+  border-radius: 25px;
+  border: 2px solid #73ad21;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  background-color: whitesmoke;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.image {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 20%;
+  margin-left: 1%;
+  margin-top: 2%;
+}
+image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.show:hover {
+  background-color: rgba(85, 230, 218, 0.854);
+  color: white;
+}
+.image:hover {
+  background-color: rgba(85, 230, 218, 0.854);
+  transform: scale(1.1);
+}
